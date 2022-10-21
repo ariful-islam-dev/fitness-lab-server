@@ -8,3 +8,6 @@
 
 ### Contributor name
 - [x] Akib Ahmad
+
+### Category Model created
+- [x] All categories and subcategories have been created
