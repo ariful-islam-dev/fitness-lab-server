@@ -5,3 +5,9 @@
 ### Working Process
 
 - [x] Connect Heroku PostgreSQL databse
+
+### Contributor name
+- [x] Akib Ahmad
+
+### Category Model created
+- [x] All categories and subcategories have been created
