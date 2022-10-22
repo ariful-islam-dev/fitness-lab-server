@@ -35,11 +35,6 @@
     "require_date": {
       "type": "datetime",
       "required": false
-    },
-    "order_detail": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::order-detail.order-detail"
     }
   }
 }

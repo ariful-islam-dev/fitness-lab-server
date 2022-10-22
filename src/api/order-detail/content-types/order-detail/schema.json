@@ -22,6 +22,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::order.order"
+    },
+    "discount": {
+      "type": "decimal"
     }
   }
 }
