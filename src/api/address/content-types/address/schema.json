@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "kind": "collectionType",
-=======
   "kind": "singleType",
->>>>>>> 26857bd6f62592b6cecee145a02152622434a2ea
   "collectionName": "addresses",
   "info": {
     "singularName": "address",
@@ -15,19 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-<<<<<<< HEAD
-    "House": {
-      "type": "string",
-      "required": true
-    },
-=======
-
     "Home": {
       "type": "string",
       "required": true
     },
 
->>>>>>> 26857bd6f62592b6cecee145a02152622434a2ea
     "Village": {
       "type": "string",
       "required": true
@@ -36,22 +24,14 @@
       "type": "string",
       "required": true
     },
-<<<<<<< HEAD
+
     "District": {
       "type": "string",
       "required": true
     },
     "Country": {
-      "type": "string"
-=======
-    
-    "District": {
       "type": "string",
       "required": true
-    },"Country": {
-      "type": "string",
-      "required": true
->>>>>>> 26857bd6f62592b6cecee145a02152622434a2ea
     }
   }
 }
