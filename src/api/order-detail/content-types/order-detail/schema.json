@@ -21,7 +21,8 @@
     "order": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::order.order"
+      "target": "api::order.order",
+      "inversedBy": "order_detail"
     },
     "discount": {
       "type": "decimal"
