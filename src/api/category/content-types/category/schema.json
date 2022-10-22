@@ -18,6 +18,12 @@
     "Name": {
       "type": "string",
       "required": true
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "categories"
     }
   }
 }

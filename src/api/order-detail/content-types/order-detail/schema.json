@@ -4,7 +4,7 @@
   "info": {
     "singularName": "order-detail",
     "pluralName": "order-details",
-    "displayName": "order_detail",
+    "displayName": "Order_details",
     "description": ""
   },
   "options": {
@@ -22,9 +22,15 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::order.order",
-      "inversedBy": "order_detail"
+      "mappedBy": "order_detail"
     },
     "discount": {
+      "type": "decimal"
+    },
+    "total_price": {
+      "type": "decimal"
+    },
+    "shipping_cost": {
       "type": "decimal"
     }
   }

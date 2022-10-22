@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "reviews",
   "info": {
     "singularName": "review",
@@ -11,12 +11,26 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Description": {
-      "type": "string"
+    "comment": {
+      "type": "richtext"
     },
-    "Rating": {
-      "type": "float",
-      "required": true
+    "rating": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 1
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::profile.profile",
+      "inversedBy": "reviews"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product.product",
+      "inversedBy": "reviews"
     }
   }
 }

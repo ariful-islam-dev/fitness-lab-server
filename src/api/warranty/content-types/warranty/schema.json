@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "warranties",
+  "info": {
+    "singularName": "warranty",
+    "pluralName": "warranties",
+    "displayName": "Warranty ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "period": {
+      "type": "enumeration",
+      "enum": [
+        "six month",
+        "one year",
+        "two year",
+        "three year",
+        "four year"
+      ]
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "warranty"
+    }
+  }
+}

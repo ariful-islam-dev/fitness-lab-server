@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metarials",
+  "info": {
+    "singularName": "metarial",
+    "pluralName": "metarials",
+    "displayName": "Metarial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Metal",
+        "Fabrics",
+        "Plastic",
+        "Canvas",
+        "Denim",
+        "Alloy"
+      ]
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "metarial"
+    }
+  }
+}

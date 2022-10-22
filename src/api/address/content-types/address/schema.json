@@ -1,37 +1,42 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "addresses",
   "info": {
     "singularName": "address",
     "pluralName": "addresses",
-    "displayName": "Address"
+    "displayName": "Address",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Home": {
+    "House": {
       "type": "string",
       "required": true
     },
-
-    "Village": {
+    "village": {
       "type": "string",
       "required": true
     },
-    "Upozila": {
+    "upozilla": {
       "type": "string",
       "required": true
     },
-
-    "District": {
+    "district": {
       "type": "string",
       "required": true
     },
-    "Country": {
+    "country": {
       "type": "string",
       "required": true
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::profile.profile",
+      "inversedBy": "addresses"
     }
   }
 }
