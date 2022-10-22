@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "addresses",
+  "info": {
+    "singularName": "address",
+    "pluralName": "addresses",
+    "displayName": "Address"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+
+    "Home": {
+      "type": "string",
+      "required": true
+    },
+
+    "Village": {
+      "type": "string",
+      "required": true
+    },
+    "Upozila": {
+      "type": "string",
+      "required": true
+    },
+    
+    "District": {
+      "type": "string",
+      "required": true
+    },"Country": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
