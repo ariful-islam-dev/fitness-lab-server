@@ -11,19 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-<<<<<<< HEAD
-    "type": {
-      "type": "string",
-      "required": true
-    },
-    "name": {
-=======
     "Type": {
       "type": "string",
       "required": true
     },
     "Name": {
->>>>>>> 26857bd6f62592b6cecee145a02152622434a2ea
       "type": "string",
       "required": true
     }
