@@ -4,7 +4,8 @@
   "info": {
     "singularName": "color",
     "pluralName": "colors",
-    "displayName": "color"
+    "displayName": "color",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,7 +23,6 @@
         "Black",
         "Purple"
       ],
-      "default": "White",
       "required": true
     },
     "product": {
