@@ -21,9 +21,6 @@
     "discount_price": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
-    },
     "thumbnails": {
       "type": "media",
       "multiple": true,
@@ -39,9 +36,6 @@
       "type": "string"
     },
     "material": {
-      "type": "string"
-    },
-    "tags": {
       "type": "string"
     },
     "categories": {
@@ -85,6 +79,9 @@
       "relation": "oneToMany",
       "target": "api::size.size",
       "mappedBy": "product"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
