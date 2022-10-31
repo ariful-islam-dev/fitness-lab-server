@@ -4,4 +4,8 @@ module.exports = {
     maxLimit: 100,
     withCount: true,
   },
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
 };
+
