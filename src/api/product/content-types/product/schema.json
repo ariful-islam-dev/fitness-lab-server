@@ -35,9 +35,6 @@
     "model": {
       "type": "string"
     },
-    "material": {
-      "type": "string"
-    },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",
