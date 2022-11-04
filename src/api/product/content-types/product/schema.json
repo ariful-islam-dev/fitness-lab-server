@@ -32,9 +32,6 @@
     "stock": {
       "type": "string"
     },
-    "model": {
-      "type": "string"
-    },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",
