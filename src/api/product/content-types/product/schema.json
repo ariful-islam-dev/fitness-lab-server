@@ -76,6 +76,12 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "orders": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::order.order",
+      "inversedBy": "products"
     }
   }
 }

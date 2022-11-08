@@ -35,6 +35,12 @@
       "relation": "manyToOne",
       "target": "api::profile.profile",
       "inversedBy": "orders"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "orders"
     }
   }
 }
